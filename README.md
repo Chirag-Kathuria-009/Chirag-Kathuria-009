@@ -61,7 +61,7 @@ Also learning German (A2 → B1), with daily conversational practice from part-t
 
 ### 📫 Reach me
 
-[LinkedIn](#) · [Email](#)
+[LinkedIn](https://www.linkedin.com/in/chirag-kathuria/) · [Email](chiragkathuria24de@gmail.com)
 
 <!--
 **Chirag-Kathuria-009/Chirag-Kathuria-009** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
