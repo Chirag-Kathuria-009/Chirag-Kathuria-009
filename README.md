@@ -59,12 +59,6 @@ A multi-agent LangGraph system that watches an Apache Airflow pipeline, diagnose
 | **[FraudTransactionsClassifier](https://github.com/Chirag-Kathuria-009/FraudTransactionsClassifier)** | Fraud detection on transaction data using LightGBM, served via FastAPI, deployed on AWS |
 | **[FEVER_FACT_CHECKER](https://github.com/Chirag-Kathuria-009/FEVER_FACT_CHECKER)** | Automatic fact verification on Wikipedia claims using a BERT-based classifier (FEVER dataset) |
 
----
-
-### 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chirag-Kathuria-009&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Chirag-Kathuria-009&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
