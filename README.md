@@ -1,7 +1,6 @@
-
 # Hi, I'm Chirag 👋
 
-Data Engineer with 2+ years of production experience in FinTech, currently completing an **M.Sc. in Data Science at Universität Trier** (graduating Oct 2026). Based in Frankfurt, Germany — open to **Werkstudent, internship, and full-time** Data Engineer / Data Analyst / Data Scientist roles across **Germany and Luxembourg**.
+Data Engineer with 2+ years of production experience in FinTech, currently completing an **M.Sc. in Data Science at Universität Trier** (graduating Oct 2026). Based in Frankfurt, Germany — open to **Werkstudent, internship, and full-time** Data Engineer / Data Scientist / AI Engineer roles across **Germany and Luxembourg**.
 
 EU student visa, no employer sponsorship required.
 
@@ -14,6 +13,10 @@ A real-time data pipeline that classifies ICT operational incidents against EU D
 Ingestion (Kafka), schema validation (Pydantic), and the BaFin classification rules engine (with full unit test coverage) are complete; the streaming, dbt/data-quality, orchestration, and dashboard layers are in active development.
 `Kafka` · `PySpark Structured Streaming` · `Apache Iceberg` · `MinIO` · `dbt Core` · `Great Expectations` · `Airflow` · `Superset` · `Docker Compose`
 
+**[Self-Healing Data Pipeline Agent](<add-your-repo-link>)**
+A multi-agent LangGraph system that watches an Apache Airflow pipeline, diagnoses task failures with an LLM (tool-calling into log retrieval, schema inspection, and read-only SQL), and either auto-executes a fix or routes it to a human for approval — decided by a separate, deterministic guardrail layer, not by the LLM itself. The full pipeline (triage → investigate → remediate → approval/report) is built and tested end-to-end against real injected failures (upstream timeouts, schema drift, null spikes); automated test coverage and documentation are the remaining work.
+`LangGraph` · `LangChain` · `Google Gemini` · `FastAPI` · `Apache Airflow` · `PostgreSQL` · `Docker Compose`
+
 ---
 
 ### 🛠️ Tech Stack
@@ -21,6 +24,12 @@ Ingestion (Kafka), schema validation (Pydantic), and the BaFin classification ru
 **Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+
+**AI / Agentic Systems**
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
+![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
 **Data Engineering**
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
@@ -46,34 +55,27 @@ Ingestion (Kafka), schema validation (Pydantic), and the BaFin classification ru
 | Project | What it does |
 |---|---|
 | **[DORA-Pipeline](https://github.com/Chirag-Kathuria-009/DORA-Pipeline)** | Real-time ICT incident classification pipeline built to EU DORA / BaFin Article 18 reporting requirements |
+| **[Self-Healing Pipeline Agent](https://github.com/Chirag-Kathuria-009/MultiAgent_Debugging_Pipeline)** | Multi-agent LangGraph system that diagnoses Airflow task failures with an LLM and auto-remediates or escalates to a human, gated by a deterministic guardrail layer |
 | **[FraudTransactionsClassifier](https://github.com/Chirag-Kathuria-009/FraudTransactionsClassifier)** | Fraud detection on transaction data using LightGBM, served via FastAPI, deployed on AWS |
 | **[FEVER_FACT_CHECKER](https://github.com/Chirag-Kathuria-009/FEVER_FACT_CHECKER)** | Automatic fact verification on Wikipedia claims using a BERT-based classifier (FEVER dataset) |
 
 ---
 
+### 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chirag-Kathuria-009&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Chirag-Kathuria-009&layout=compact&theme=tokyonight&hide_border=true)
+
+---
+
 ### 📍 Background
 
-Production data engineering experience at **Bajaj Finserv**, building ETL pipelines, PySpark jobs, BI dashboards, and an eKYC document-extraction workflow (OpenCV + fuzzy name-matching). Currently sharpening that with regulatory-grade, EU-context data engineering through my M.Sc. and the DORA project above.
+Production data engineering experience at **Bajaj Finserv**, building ETL pipelines, PySpark jobs, BI dashboards, and an eKYC document-extraction workflow (OpenCV + fuzzy name-matching). Currently sharpening that with regulatory-grade, EU-context data engineering through my M.Sc., and extending into agentic/LLM systems through the Self-Healing Pipeline Agent above.
 
-Also learning German (A2 → B1), with daily conversational practice from part-time work in Trier.
+Also learning German (A2 → B1).
 
 ---
 
 ### 📫 Reach me
 
-[LinkedIn](https://www.linkedin.com/in/chirag-kathuria/) · [Email](chiragkathuria24de@gmail.com)
-
-<!--
-**Chirag-Kathuria-009/Chirag-Kathuria-009** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[LinkedIn](https://www.linkedin.com/in/chirag-kathuria/) · [Email](mailto:chiragkathuria24de@gmail.com)
